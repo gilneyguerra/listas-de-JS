@@ -11,39 +11,39 @@
 ## Calculo das medias
 
 ## <html>
-  <p>
-Digite 3 números para calcular a média
-</p>
-<input type="number" id="a">
-<input type="number" id="b">
-<input type="number" id="c">
+-<p>
+-Digite 3 números para calcular a média
+-</p>
+-<input type="number" id="a">
+-<input type="number" id="b">
+-<input type="number" id="c">
 
-<button onclick ="obtermedia()">
-Calcular Media
-</button>
+-<button onclick ="obtermedia()">
+-Calcular Media
+-</button>
 
-<div id="resultado">
+-<div id="resultado">
 
-</div>
-</html>
+-</div>
+-</html>
 
 ## CSS
 
-input, button {
-display: block;
-margin 10px;
-}
+-input, button {
+-display: block;
+-margin 10px;
+-}
 
 ## <script>
 
-function obtermedia(){
-var a = parseInt(document.getElementById("a").value);
-var b = parseInt(document.getElementById("b").value);
-var c = parseInt(document.getElementById("c").value);
+-function obtermedia(){
+-var a = parseInt(document.getElementById("a").value);
+-var b = parseInt(document.getElementById("b").value);
+-var c = parseInt(document.getElementById("c").value);
 
-var media = (a+b+c)/3;
+-var media = (a+b+c)/3;
 
-document.getElementById("resultado").innerHTML = "Resultado: " + media;
+-document.getElementById("resultado").innerHTML = "Resultado: " + media;
 
 
-}
+-}
