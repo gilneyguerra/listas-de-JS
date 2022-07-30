@@ -25,3 +25,20 @@ resultado = "reprovado";
 
 console.log("Media: " + media + " - " + resultado);
 }
+
+
+//contador//
+
+var contador = 0;
+while (contador < 10) {
+contador++;
+console.log(contador);
+}
+
+//decrescer hora//
+
+var hora = 24;
+while (hora > 0) {
+hora--;
+console.log(hora);
+}
